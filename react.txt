@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import Resume from './resume';
+import Projects from './projects';
+import Contact from './contact';
+
+import {Grid,Cell,List,ListItem,ListItemContent} from 'react-mdl';
+ import {Screen,ScreenSlice} from 'react-screen';
+class About extends Component {
+
+  render() {
+    return(
+      <Screen>
+        <ScreenSlice>
+          <Resume/>
+        </ScreenSlice>
+        <ScreenSlice>
+            <Projects/>
+        </ScreenSlice>
+        <ScreenSlice>
+          <Contact/>
+        </ScreenSlice>
+    </Screen>
+    )
+  }
+}
+
+export default About;

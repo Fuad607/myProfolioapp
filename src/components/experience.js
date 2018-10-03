@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import  {Grid,Cell} from 'react-mdl';
+class Experience extends Component{
+  render() {
+    return(
+      <Grid>
+      <Cell col={3}>
+      <img src={this.props.imgsrc} alt="avatar"
+      style={{height:'90px'   }}/></Cell>
+      <Cell col={9}>
+      <h4 style={{marginTop:'0px' ,fontSize:'27px' ,fontFamily:'Trocchi' ,fontWeight:'bold' }}>{this.props.companyName}</h4>
+      <h5 style={{color:'#5A5A5A',fontFamily:'Eb Garamond'  }}>{this.props.job}<span> • </span>{this.props.jobDate}</h5>
+      <h6 style={{color:'#5A5A5A',fontFamily:'Eb Garamond'  }}>{this.props.jobDescription}<span > <a href={this.props.Link} target="_blank" style={{color:'blue'}} >{this.props.Link}</a></span></h6>
+      <h6 style={{color:'#767474',fontFamily:'Playfair Display' ,marginTop:'-10px' }}>{this.props.place}</h6>
+      </Cell>
+      </Grid>
+
+    )
+
+
+  }
+}
+export default Experience;

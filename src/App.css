@@ -1,0 +1,123 @@
+ .header-color{
+   background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+.landing-grid{
+  background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position: fixed;
+top: 10;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+
+.avatar-img{
+   height: 250px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 75%;
+  margin: auto;
+}
+.social-links{
+  display: flex;
+  justify-content:space-between;
+  width: 50%;
+  margin: auto;
+
+}
+.social-links i{
+  color:white;
+   font-size: 5em;
+  padding: 20px;
+   margin-left: -270%;
+}
+.projects-grid{
+  display: flex;
+}
+/* contact page*/
+.contact-body{
+  margin: auto;
+   position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 80%;
+  height: 550px;
+  color: black;
+   margin-bottom: 20px;
+}
+.contact-grid h2{
+  font-family:  'Libre Baskerville', serif;
+  font-weight: bold;
+}
+.contact-grid p{
+font-family: 'EB Garamond', serif;
+}
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+.contact-list i{
+  font-size:66px;
+  padding-right: 2rem;
+}
+/* contact page*/
+/*resume right col*/
+.resume-right-col{
+
+  padding:2em;
+
+}
+.resume{
+  background-color: #FAFAFA;
+}
+.mdl-progress-yellow > .bufferbar {
+    background-image: linear-gradient(to right, #F5D3FC, #F5D3FC), linear-gradient(to right, #9B0EBB, #9B0EBB)  !important;
+     border-radius: 50px;
+
+
+ }
+
+.mdl-progress-yellow > .auxbar {
+    background-image: linear-gradient(to right, #F5D3FC,#F5D3FC), linear-gradient(to right, #9B0EBB, #9B0EBB)  !important;
+  border-radius:  50px;
+
+}
+
+.mdl-progress-yellow > .progressbar {
+    background-color: #9B0EBB !important;
+    border-radius: 50px;
+
+
+
+}
