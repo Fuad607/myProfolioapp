@@ -41,6 +41,22 @@ class Resume extends Component{
       </Cell>
       <Cell className='resume-right-col'col={9}>
       <div>
+        <Experience
+      imgsrc="logo_kn.jpg"
+      companyName="Konstanz University"
+      job="IT Support(HIWI job)"
+      jobDate="Sep 2018 - present"
+      jobDescription="Responsibilities: To solve the problems university's department computers and server."
+      place="Konstanz, Germany "/>
+      <Experience
+      imgsrc="logo_kn.jpg"
+      companyName="Konstanz University"
+      job="Web and Database Developer (HIWI job)"
+      jobDate="May 2017 - Oct 2017"
+      jobDescription="Responsibilities: Create a new website for Linguistic department."
+      Link="http://rentsoft.de"
+      place="München, Germany "/>
+      
       <Experience
       imgsrc="logo_kn.jpg"
       companyName="Konstanz University"
