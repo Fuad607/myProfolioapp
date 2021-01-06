@@ -47,8 +47,8 @@ class Resume extends Component{
       companyName="Rentsoft GmbH"
       job="Full Stack Web Developer"
       jobDate="October 2018 - present"
-      jobDescription="Responsibilities: Develop and maintenance webpage."
-      Link="http://rentsoft.de"
+      jobDescription="Responsibilities: Develop and maintain the company website."
+      Link="http://app.rentsoft.de"
       place="München, Germany "/>
       
       <Experience
@@ -56,25 +56,25 @@ class Resume extends Component{
       companyName="Konstanz University"
       job="Web and Database Developer (HIWI job)"
       jobDate="May 2017 - Oct 2017"
-      jobDescription="Responsibilities: Create a new website for Linguistic department."
-      Link="http://bunnik.sprachwiss.uni-konstanz.de"
+      jobDescription="Responsibilities: Develop a new website for the Linguistic department."
       place="Konstanz, Germany "/>
-
+  <Experience
+        imgsrc="qafqaz_logo.jpg"
+        companyName="Qafqaz University, Techno park, Baku(Azerbaijan)"
+        job="Junior Web Developer (Internship)"
+        jobDate="June 2016 - August 2016"
+        jobDescription="Responsibilities: To develop new features for our university website and solve bugs in the current system."
+        place="Baku, Azerbaijan "/>
+      
         <Experience
         imgsrc="qafqaz_logo.jpg"
         companyName="Qafqaz University, Techno park, Baku(Azerbaijan)"
         job="Java Developer(internship)"
-        jobDate="May 2015 - August 2015"
-        jobDescription="Responsibilities: Developed some java applications for university."
+        jobDate="June 2015 - August 2015"
+        jobDescription="Responsibilities: To develop desktop applications for the university."
         place="Baku, Azerbaijan "/>
 
-        <Experience
-        imgsrc="qafqaz_logo.jpg"
-        companyName="Qafqaz University, Techno park, Baku(Azerbaijan)"
-        job="Web Developer (Internship)"
-        jobDate="May 2014 - August 2014"
-        jobDescription="Responsibilities: To develop and solve bugs in university website."
-        place="Baku, Azerbaijan "/>
+      
         </div>
       </Cell>
       </Grid>
