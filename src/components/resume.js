@@ -19,7 +19,7 @@ class Resume extends Component{
         imgsrc="logo_kn.jpg"
         uniName="Konstanz University"
         uniDescription="Master of Computer and Information Science"
-        uniDate="May 2016 - present"
+        uniDate="May 2016 - May 2022"
         place="Konstanz, Germany"/>
 
         <Education
@@ -46,7 +46,7 @@ class Resume extends Component{
       imgsrc="rentsoft.png"
       companyName="Rentsoft GmbH"
       job="Full Stack Web Developer"
-      jobDate="October 2018 - present"
+      jobDate="October 2018 - Febuary 2022"
       jobDescription="Responsibilities: Develop and maintain the company website."
       Link="http://app.rentsoft.de"
       place="München, Germany "/>
